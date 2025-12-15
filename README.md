@@ -53,13 +53,13 @@ Least-privilege IAM design (conceptual)
 
 Secure networking (private database)
 
-##Architecture Diagram
+## Architecture Diagram
 
 
 
 
 
-##Terraform Module Structure
+## Terraform Module Structure
 
 Main Configuration: main.tf, variables.tf, outputs.tf
 Modular Structure:
@@ -78,7 +78,7 @@ Remote state management with S3 and DynamoDB
 <img width="323" height="498" alt="Screenshot 2025-12-15 at 21 51 33" src="https://github.com/user-attachments/assets/117bc59f-7734-438a-a58a-8fd7fd2c3ead" />
 
 
-##Module Responsibilities
+## Module Responsibilities
 
 #Network Module
 
@@ -96,7 +96,7 @@ Private Subnets (for RDS)
 
 Security Groups
 
-#Compute Module
+# Compute Module
 
 Purpose:
 
@@ -110,7 +110,7 @@ Security Group
 
 IAM Role 
 
-#Database Module
+# Database Module
 
 Purpose:
 
@@ -135,11 +135,11 @@ S3 Bucket
 
 Public Access Block
 
-#Security Design 
+# Security Design 
 
 Private database: RDS is not internet-accessible
 
-##Final Summary
+## Final Summary
 
 This project demonstrates how to design a realistic AWS Product Catalog microservice using Terraform modules, focusing on architecture, security, and best practices—without deploying anything.
 
