@@ -1,6 +1,7 @@
 # aws-productlist-microservice-mvp
 
 
+
 ## Project Title
 
 Product Catalog Microservice – Terraform MVP (AWS)
@@ -50,3 +51,5 @@ Outputs for module communication
 Least-privilege IAM design (conceptual)
 
 Secure networking (private database)
+
+
