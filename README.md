@@ -1,4 +1,4 @@
-[mvpdiagram.drawio](https://github.com/user-attachments/files/24177089/mvpdiagram.drawio)# aws-productlist-microservice-mvp
+# aws-productlist-microservice-mvp
 
 
 
@@ -54,6 +54,7 @@ Least-privilege IAM design (conceptual)
 Secure networking (private database)
 
 ## Architecture Diagram
+[mvpdiagram.drawio](https://github.com/user-attachments/files/24177089/mvpdiagram.drawio)
 
 
 [Uploading mvpdiagram<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
