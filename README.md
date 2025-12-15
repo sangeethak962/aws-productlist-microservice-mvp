@@ -284,13 +284,14 @@ Public Access Block
 # Security Design 
 
 Private database: RDS is not internet-accessible
-
-## Final Summary
-
-This project demonstrates how to design a realistic AWS Product Catalog microservice using Terraform modules, focusing on architecture, security, and best practices—without deploying anything.
-
 Least privilege IAM: EC2 only accesses required S3 bucket
 
 Security Groups: Restrict traffic between layers
 
 S3 Public Access Block: Prevents accidental public exposure
+
+## Final Summary
+
+This project demonstrates how to design a realistic AWS Product Catalog microservice using Terraform modules, focusing on architecture, security, and best practices—without deploying anything.
+
+
