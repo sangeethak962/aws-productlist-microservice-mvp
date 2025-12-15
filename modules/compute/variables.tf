@@ -23,6 +23,9 @@ variable "tags" {
  }
 
 # Derived value: if s3 bucket name provided generate arn
+
 locals {
-  bucket_arn = length(trim(var.s3_bucket_arn)) > 0 ? var.s3_bucket_arn : (length(trim(var.s3_bucket_name)) > 0 ? "arn:aws:s3:::${var.s3_bucket_name}" : "")
+  bucket_arn = length(trimspace(var.s3_bucket_arn)) > 0 ? var.s3_bucket_arn : (
+                  length(trimspace(var.s3_bucket_name)) > 0 ? "arn:aws:s3:::${var.s3_bucket_name}" : ""
+               )
 }
