@@ -1,5 +1,5 @@
 // Security group for EC2 allowing HTTP (80) inbound and all outbound.
-// In a real deployment you'd restrict inbound to ALB or admin CIDR.
+
 resource "aws_security_group" "app_sg" {
   name        = "${var.name}-app-sg"
   description = "Allow HTTP to app instances"

@@ -9,3 +9,8 @@ resource "aws_s3_bucket" "app_assets" {
 resource "random_id" "suffix" {
   byte_length = 4
 }
+terraform {
+  required_providers {
+    random = { source = "hashicorp/random", version = ">= 3.0" }
+  }
+}
