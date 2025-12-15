@@ -62,15 +62,24 @@ Secure networking (private database)
 ## Terraform Module Structure
 
 Main Configuration: main.tf, variables.tf, outputs.tf
+
 Modular Structure:
+
 modules/vpc/ - Network infrastructure (using terraform-aws-modules/vpc/aws)
+
 modules/ec2/ - Compute resources with security groups
+
 modules/rds/ - Database resources with security groups
+
 modules/s3/ - Storage resources with encryption and lifecycle policies
+
 Features:
 Comprehensive comments explaining each resource
+
 Input variables for customization
+
 Output values for easy access to resource information
+
 Remote state management with S3 and DynamoDB
 
 
