@@ -52,6 +52,7 @@ Outputs for module communication
 Least-privilege IAM design (conceptual)
 
 Secure networking (private database)
+<img width="836" height="714" alt="Screenshot 2025-12-17 at 11 02 01" src="https://github.com/user-attachments/assets/1b38df06-7b93-4e12-bad0-1c5276b58527" />
 
 ## Architecture Diagram
 [mvpdiagram.drawio](https://github.com/user-attachments/files/24177089/mvpdiagram.drawio)
